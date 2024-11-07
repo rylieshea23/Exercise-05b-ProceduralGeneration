@@ -111,9 +111,7 @@ public class MazeGenerator : MonoBehaviour
 
                 tile.transform.Translate(new Vector3 (j*tile_size, 0, i * tile_size));
                 tile.name += " " + i.ToString() + ' ' + j.ToString(); 
-                //float waitFrames = Time.deltaTime * 2;
-                //yield return new WaitForSeconds(waitFrames);
-            }
+               
 
         }
 
